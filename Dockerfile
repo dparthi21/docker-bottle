@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Define environment variable
-ENV NAME Parthiban
+ENV NAME dparthi21
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
